@@ -1,0 +1,24 @@
+
+[[entries]]
+title = "Posts"
+
+  [entries.post_list]
+  limit = 5
+  show_more = true
+  show_more_text = "See archive..."
+  show_more_url = "posts"
+
+[[entries]]
+title = "Links"
+
+  [[entries.entries]]
+  title = "Github"
+  url = "https://github.com/namnd"
+
+  [[entries.entries]]
+  title = "GPG Key"
+  url = "https://github.com/namnd.gpg"
+
+  [[entries.entries]]
+  title = "RSS"
+  url = "index.xml"

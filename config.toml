@@ -1,7 +1,7 @@
 baseURL = '/'
 languageCode = 'en-au'
 title = 'namnd ☕'
-theme = 'ezhil'
+theme = 'nostyleplease'
 googleAnalytics = "G-8LL0B59QRS"
 summaryLength = 20
 
