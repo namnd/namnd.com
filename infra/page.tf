@@ -43,3 +43,9 @@ resource "cloudflare_pages_project" "namnd_com" {
     }
   }
 }
+
+resource "cloudflare_pages_domain" "namnd_com" {
+  account_id   = local.cloudflare_account_id
+  project_name = cloudflare_pages_project.namnd_com.name
+  name         = "namnd.com"
+}
